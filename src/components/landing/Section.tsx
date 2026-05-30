@@ -44,6 +44,7 @@ export default function Section({ id, title, subtitle, content, isActive, showBu
             variant="outline"
             size="lg"
             className="text-red-500 bg-transparent border-red-500 hover:bg-red-500 hover:text-white transition-colors"
+            onClick={() => window.open('https://t.me/neuro_test_msk', '_blank')}
           >
             {buttonText}
           </Button>
