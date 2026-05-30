@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge"
 export const sections = [
   {
     id: 'hero',
-    subtitle: <Badge variant="outline" className="text-violet-400 border-violet-400">Набор открыт</Badge>,
+    subtitle: <Badge variant="outline" className="text-red-500 border-red-500">Набор открыт</Badge>,
     title: "Научись строить нейросети с нуля.",
     showButton: true,
     buttonText: 'Начать обучение'
